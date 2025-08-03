@@ -1,22 +1,52 @@
-# Rosemary's Portfolio Website 🌸
+👩‍⚕️ About Me
+I’m Ezeoke Ifeomachukwu Rosemary, a student nurse passionate about women’s reproductive health, health promotion, and digital innovation. I'm currently working toward my Registered Nurse certification under the Nursing and Midwifery Council of Nigeria (NMCN), expected by next year.
 
-This is a beginner portfolio website created for the PLP Academy July 2025 Cohort Hackathon.
+I’m also diving into web development and Python programming through the Power Learn Project, Africa to broaden my skills and explore tech as a side hustle.
 
-## 👩‍💻 About Me
-I’m Ezeoke Ifeomachukwu Rosemary, a student nurse who’s currently learning Python and exploring web development as a new skill and side hustle.
+🧠 Skills
+💻 Programming
+Python (Beginner)
 
-## 🛠️ Programming Skills
-- Python (Beginner)
-- HTML & CSS (Learning in progress)
+HTML & CSS (Learning in progress)
 
-## 📚 Education
-Currently a nursing student. CV coming soon!
+Basic JavaScript (Exploring)
 
-## 🔍 Interests
-I love learning new things and exploring tech to grow in knowledge and creativity.
+🩺 Health & Advocacy
+Health promotion campaigns
 
-## 🔗 GitHub
-[github.com/Rose-mary99](https://github.com/Rose-mary99)
+Reproductive and sexual health education
 
-## 📬 Contact
-This site includes a contact form for visitors to reach out.
+Digital storytelling for advocacy
+
+🎓 Education
+Software Development (Ongoing) – Power Learn Project, Africa
+
+Registered Nurse Training (Ongoing) – School of Nursing, Nigeria
+
+WAEC Certificate (2017) – Girls' Secondary School, Awka-Etiti
+
+📁 Projects
+Currently conducting a research project as part of the requirements for the Registered Nurse Certificate (To be published).
+
+Building a beginner portfolio website using HTML, CSS, and GitHub Pages.
+
+Exploring Python CLI Projects as part of my learning journey.
+
+💡 Interests
+Women’s reproductive and sexual health
+
+Front-end web development
+
+Digital storytelling
+
+Tech for advocacy and community health education
+
+🔗 GitHub
+github.com/Rose-mary99
+
+📬 Contact
+Email: rosemaryezeoke@gmail.com
+
+GitHub: Rose-mary99
+
+© 2025 Ezeoke Rosemary. All rights reserved.

@@ -4,25 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ezeoke Rosemary Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Times New Roman', Times, serif, sans-serif;
       background-color: #f0f8ff;
       color: #000;
       margin: 0;
       padding: 0;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     header {
       background-color: #004080;
       color: white;
-      text-align: center;
       padding: 2rem 1rem;
+      animation: slideDown 1s ease-out;
     }
 
-    .subtitle {
-      font-style: italic;
-      color: #d3d3d3;
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+
+    .profile-text {
+      text-align: right;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      border: 5px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1.5s ease;
     }
 
     main {
@@ -35,6 +67,15 @@
       color: #003366;
       border-bottom: 2px solid #007acc;
       padding-bottom: 0.3rem;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: color 0.3s ease;
+    }
+
+    h2:hover {
+      color: #004080;
     }
 
     ul {
@@ -60,40 +101,57 @@
     }
   </style>
 </head>
+
 <body>
   <header>
-    <h1>Ezeoke Rosemary</h1>
-    <p class="subtitle">Student Nurse | Health Advocate | Web Enthusiast</p>
+    <div class="profile-container">
+      <div class="profile-text">
+        <h1>EZEOKE ROSEMARY</h1>
+        <p>Student Nurse | Health Advocate | Web Enthusiast</p>
+      </div>
+      <img src="rosemary.jpg" alt="Ezeoke Rosemary" class="profile-photo" />
+    </div>
   </header>
 
   <main>
     <section>
-      <h2>About Me</h2>
+      <h2><i class="ri-user-line"></i> ABOUT ME</h2>
       <p>
         I am a student nurse passionate about women's reproductive health and health promotion.
-        I am currently pursuing my Registered Nurse certification under the Nursing and Midwifery Council of Nigeria (NMCN), 
+        I am currently pursuing my Registered Nurse certification under the Nursing and Midwifery Council of Nigeria (NMCN),
         expected by next year.
       </p>
     </section>
 
     <section>
-      <h2>Education</h2>
+      <h2><i class="ri-graduation-cap-line"></i> EDUCATIONAL BACKGROUND</h2>
       <ul>
+        <li>Software Development (Ongoing) – Power Learn Project, Africa</li>
         <li>Registered Nurse Training (Ongoing) – School of Nursing, Nigeria</li>
-        <li>Secondary Education – <strong>Girls' Secondary School, Awka-Etiti</strong> - WAEC Certificate, 2017</li>
-   </ul>
+        <li>Secondary Education – Girls' Secondary School, Awka-Etiti – WAEC Certificate, 2017</li>
+      </ul>
     </section>
 
     <section>
-      <h2>Research</h2>
+      <h2><i class="ri-lightbulb-line"></i> INTERESTS</h2>
+      <ul>
+        <li>Women’s reproductive and sexual health education</li>
+        <li>Health promotion campaigns</li>
+        <li>Digital storytelling for advocacy</li>
+        <li>Front-end web development (HTML, CSS, beginner JavaScript)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ri-tools-line"></i> PROJECTS</h2>
       <p>
-        Currently conducting a project as part of the requirements for the award of the Registered Nurse Certificate.  
-        <em>This research is yet to be published.</em>
+        Currently conducting a research project in partial fulfillment of the requirements
+        for the Registered Nurse Certificate. <em>This research is yet to be published.</em>
       </p>
     </section>
 
     <section>
-      <h2>Contact</h2>
+      <h2><i class="ri-mail-line"></i> CONTACT ME</h2>
       <p>Email: <a href="mailto:rosemaryezeoke@gmail.com">rosemaryezeoke@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/Rose-mary99" target="_blank">Rose-mary99</a></p>
     </section>
@@ -104,5 +162,3 @@
   </footer>
 </body>
 </html>
-
-     

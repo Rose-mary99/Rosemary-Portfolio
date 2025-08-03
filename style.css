@@ -1,53 +1,25 @@
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #000;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #004080;
-  color: white;
-  text-align: center;
-  padding: 2rem 1rem;
+/* Container to center the image */
+.passport-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #f0f0f0;
 }
 
-.subtitle {
-  font-style: italic;
-  color: #d3d3d3;
-}
-
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-h2 {
-  color: #003366;
-  border-bottom: 2px solid #007acc;
-  padding-bottom: 0.3rem;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 1.5rem;
-}
-
-a {
-  color: #004080;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  background-color: #000;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 3rem;
+/* Style for the passport image */
+.passport-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid red;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
